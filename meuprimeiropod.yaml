@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: meuprimeiropod
+spec:
+  containers:
+    - name: meucontainer
+      image: kubedevio/nginx-colot:blue
+     
